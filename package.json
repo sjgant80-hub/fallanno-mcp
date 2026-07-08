@@ -1,0 +1,40 @@
+{
+  "name": "@ai-native-solutions/fallanno-mcp",
+  "version": "1.0.0",
+  "description": "MCP server (stdio) exposing fallanno-sdk primitives as Claude Code tools.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "fallanno-mcp": "src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "annotation",
+    "claude",
+    "fallanno",
+    "ai-native-solutions"
+  ],
+  "author": "AI Native Solutions",
+  "homepage": "https://github.com/sjgant80-hub/fallanno-mcp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallanno-mcp.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@ai-native-solutions/fallanno-sdk": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
